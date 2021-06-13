@@ -6,9 +6,7 @@ public class SmartParking {
 
     private final int[] floorSpots;
     private final boolean[][][] parking;
-
     public SmartParking(int numFloors, int numRows, int numColumns) {
-
         floorSpots = new int[numFloors];
         parking = new boolean[numFloors][numRows][numColumns];
         Arrays.fill(floorSpots, +numRows * numColumns);
