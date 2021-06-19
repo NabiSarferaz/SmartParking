@@ -8,12 +8,15 @@ public class SmartParkingUser {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Please input the number of floors.");
+
         int floors = input.nextInt();
 
         System.out.println("Please input the number of rows.");
+
         int rows = input.nextInt();
 
         System.out.println("Please input the number of columns.");
+
         int columns = input.nextInt();
 
         SmartParking parking = new SmartParking(floors, rows, columns);
